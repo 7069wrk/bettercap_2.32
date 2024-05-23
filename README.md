@@ -2,6 +2,8 @@
 
 `this repository is to communicate the process to get BETTERCAP to work with UI`
 
+### The source for BETTERCAP: https://github.com/bettercap/bettercap
+
 Please note that this process will install GO onto the system.  you can remove it once complete or you can spin up a clean system on which to compile - choice is yours
 
 ## Create a place for all this to happen in - I chose /tmp
