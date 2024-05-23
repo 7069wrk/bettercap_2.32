@@ -6,6 +6,7 @@ Please note that this process will install GO onto the system.  you can remove i
 
 ## Create a place for all this to happen in - I chose /tmp
 `sudo mkdir /tmp/bettercap`
+
 `cd /tmp/bettercap`
 
 ## NOTE if any of these fail - this process will not be able to be completed. 
