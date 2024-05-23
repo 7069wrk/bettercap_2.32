@@ -4,8 +4,9 @@
 
 Please note that this process will install GO onto the system.  you can remove it once complete or you can spin up a clean system on which to compile - choice is yours
 
-sudo mkdir /tmp/bettercap
-cd /tmp/bettercap
+`sudo mkdir /tmp/bettercap`
+
+`cd /tmp/bettercap`
 
 ## NOTE if any of these fail - this process will not be able to be completed. 
 `sudo apt-get install -y wget unzip libpcap0.8-dev golang-go libusb-1.0-0-dev libnetfilter-queue-dev`
