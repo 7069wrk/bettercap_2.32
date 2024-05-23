@@ -19,8 +19,11 @@ Please note that this process will install GO onto the system.  you can remove i
 ## NOT NEEDED IF THIS IS FIRST TRY, but is needed if you are doing this for a second time 
 `rm -Rf ./bettercap-2.32.0`
 
+## Now lets get the files in place
+
 `tar -zxf ./v2.32.0.tar.gz`
 
+## time to build 
 `cd bettercap-2.32.0`
 
 `./build.sh all`
@@ -32,17 +35,20 @@ Please note that this process will install GO onto the system.  you can remove i
 @ Creating archive bettercap_linux_amd64_2.32.0.zip ...
 ```
 
-## IF no errors, you can CD into build, extract and copy the  compiled BETTERCAP
+## IF no errors, you can CD into /build, extract the files, and copy the  compiled BETTERCAP to its home
 `cd build`
 
 `unzip bettercap_linux_amd64_2.32.0.zip`
 
 `sudo cp bettercap /usr/bin/bettercap`
 
+## now lets get out of the /tmp path and get the configuration done
+
 `cd ~`
 
 `sudo bettercap -eval "caplets.update; ui.update; q"`
 
+## time to run it and see if you were successful
 `sudo bettercap -caplet http-ui`
 
 ## Now you should be able to open your browser of choice and navigate to 127.0.0.1:80 and you will see the UI
